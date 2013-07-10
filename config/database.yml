@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: flickr_development
+  pool: 5
+  username: x
+  password: 5544
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: flickr_test
+  pool: 5
+  username: x
+  password: 5544
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: flickr_production
+  pool: 5
+  username: x
+  password: 5544
